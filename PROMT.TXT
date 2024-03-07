@@ -1,0 +1,44 @@
+Hazme un
+
+GENDER                   object
+AGE                       int64
+SMOKING                   int64
+YELLOW_FINGERS            int64
+ANXIETY                   int64
+PEER_PRESSURE             int64
+CHRONIC DISEASE           int64
+FATIGUE                   int64
+ALLERGY                   int64
+WHEEZING                  int64
+ALCOHOL CONSUMING         int64
+COUGHING                  int64
+SHORTNESS OF BREATH       int64
+SWALLOWING DIFFICULTY     int64
+CHEST PAIN                int64
+LUNG_CANCER              object
+LUNG_CANCER_NUM           int64
+
+vars de corr > 0.1
+
+
+ Conociendo el tipo de estas variables quiero 
+ predecir con Regresión Logística el valor de LUNG_CANCER_NUM a partir de aquellas variables, dame el código guapo
+
+GENDER                   object
+AGE                       int64
+SMOKING                   int64
+YELLOW_FINGERS            int64
+ANXIETY                   int64
+*PEER_PRESSURE             int64
+*CHRONIC DISEASE           int64
+FATIGUE                   int64
+*ALLERGY                   int64
+*WHEEZING                  int64
+*ALCOHOL CONSUMING         int64
+*COUGHING                  int64
+*SHORTNESS OF BREATH       int64
+SWALLOWING DIFFICULTY     int64
+*CHEST PAIN                int64
+LUNG_CANCER              object
+LUNG_CANCER_NUM           int64
+
